@@ -1,2 +1,3 @@
 # Binary_classifier
 Transfer Learning with MobileNet. Using transfer learning on a pre-trained CNN to build an Alpaca/Not Alpaca classifier!
+A pre-trained model, mobileNetV2 that has already been pre-trained on a imageNet (over 14 million images and 1000 classes.)is used to customize a model for binary classification purpose. This follows an implementation of data augumentation and preprocessing using Tensorflow Sequential API. Adapting the pretrained model to new data and training a classifier using the Tensorflow Functional API and MobileNet. Finally, Fine-tuning the classifier's final layers to improve accuracy
